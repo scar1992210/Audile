@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54605AD41D62324900EBE5DD /* SongSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AD31D62324900EBE5DD /* SongSearchBar.swift */; };
 		54CEAD251D5F1C85003D916C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD241D5F1C85003D916C /* AppDelegate.swift */; };
-		54CEAD271D5F1C85003D916C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD261D5F1C85003D916C /* ViewController.swift */; };
 		54CEAD2A1D5F1C85003D916C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD281D5F1C85003D916C /* Main.storyboard */; };
 		54CEAD2C1D5F1C85003D916C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD2B1D5F1C85003D916C /* Assets.xcassets */; };
 		54CEAD2F1D5F1C85003D916C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD2D1D5F1C85003D916C /* LaunchScreen.storyboard */; };
+		54CEAD441D5F7656003D916C /* SongCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD421D5F7656003D916C /* SongCollectionViewCell.swift */; };
+		54CEAD451D5F7656003D916C /* SongCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD431D5F7656003D916C /* SongCollectionViewCell.xib */; };
+		54CEAD481D5F77A8003D916C /* CellInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD471D5F77A8003D916C /* CellInterface.swift */; };
+		54CEAD4F1D5F7B00003D916C /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD4E1D5F7B00003D916C /* Song.swift */; };
+		54CEAD521D5F7C36003D916C /* MusicDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD511D5F7C36003D916C /* MusicDataProvider.swift */; };
+		54CEAD551D6141A6003D916C /* SongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD541D6141A6003D916C /* SongTableViewCell.xib */; };
+		54CEAD571D61432F003D916C /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD561D61432F003D916C /* SongTableViewCell.swift */; };
+		54CEAD651D618404003D916C /* DropdownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD611D618404003D916C /* DropdownItem.swift */; };
+		54CEAD661D618405003D916C /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD631D618404003D916C /* DropdownMenu.swift */; };
+		54CEAD671D618405003D916C /* DropUpMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD641D618404003D916C /* DropUpMenu.swift */; };
+		54CEAD6D1D61ABD7003D916C /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD6B1D61ABD7003D916C /* DevicesViewController.swift */; };
+		54CEAD6E1D61ABD7003D916C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD6C1D61ABD7003D916C /* ViewController.swift */; };
+		54CEAD701D61B946003D916C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CEAD6F1D61B946003D916C /* MediaPlayer.framework */; };
+		54CEAD721D61B94E003D916C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CEAD711D61B94E003D916C /* AVFoundation.framework */; };
+		54CEAD771D61C19F003D916C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD741D61C19F003D916C /* Info.plist */; };
+		54CEAD781D61C19F003D916C /* LinearProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD761D61C19F003D916C /* LinearProgressView.swift */; };
+		54CEAD7A1D61CC09003D916C /* SongProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD791D61CC09003D916C /* SongProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54605AD31D62324900EBE5DD /* SongSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongSearchBar.swift; sourceTree = "<group>"; };
 		54CEAD211D5F1C85003D916C /* Audile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CEAD241D5F1C85003D916C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54CEAD261D5F1C85003D916C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54CEAD291D5F1C85003D916C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54CEAD2B1D5F1C85003D916C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54CEAD2E1D5F1C85003D916C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54CEAD301D5F1C85003D916C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CEAD421D5F7656003D916C /* SongCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCollectionViewCell.swift; sourceTree = "<group>"; };
+		54CEAD431D5F7656003D916C /* SongCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongCollectionViewCell.xib; sourceTree = "<group>"; };
+		54CEAD471D5F77A8003D916C /* CellInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellInterface.swift; sourceTree = "<group>"; };
+		54CEAD4E1D5F7B00003D916C /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		54CEAD511D5F7C36003D916C /* MusicDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDataProvider.swift; sourceTree = "<group>"; };
+		54CEAD541D6141A6003D916C /* SongTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SongTableViewCell.xib; path = SongTableViewCell/SongTableViewCell.xib; sourceTree = "<group>"; };
+		54CEAD561D61432F003D916C /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongTableViewCell.swift; path = SongTableViewCell/SongTableViewCell.swift; sourceTree = "<group>"; };
+		54CEAD611D618404003D916C /* DropdownItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownItem.swift; sourceTree = "<group>"; };
+		54CEAD621D618404003D916C /* DropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenu.h; sourceTree = "<group>"; };
+		54CEAD631D618404003D916C /* DropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
+		54CEAD641D618404003D916C /* DropUpMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropUpMenu.swift; sourceTree = "<group>"; };
+		54CEAD6B1D61ABD7003D916C /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		54CEAD6C1D61ABD7003D916C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54CEAD6F1D61B946003D916C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		54CEAD711D61B94E003D916C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54CEAD741D61C19F003D916C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CEAD751D61C19F003D916C /* LinearProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearProgressBar.h; sourceTree = "<group>"; };
+		54CEAD761D61C19F003D916C /* LinearProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearProgressView.swift; sourceTree = "<group>"; };
+		54CEAD791D61CC09003D916C /* SongProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CEAD721D61B94E003D916C /* AVFoundation.framework in Frameworks */,
+				54CEAD701D61B946003D916C /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				54CEAD231D5F1C85003D916C /* Audile */,
+				54CEAD581D617238003D916C /* frameworks */,
 				54CEAD221D5F1C85003D916C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +93,122 @@
 		54CEAD231D5F1C85003D916C /* Audile */ = {
 			isa = PBXGroup;
 			children = (
+				54CEAD731D61C19F003D916C /* LinearProgressBar */,
+				54CEAD601D618404003D916C /* DropDownMenu */,
+				54CEAD501D5F7C36003D916C /* MusicDataProvider */,
+				54CEAD491D5F7ADF003D916C /* Models */,
+				54CEAD461D5F77A8003D916C /* Protocols */,
+				54CEAD6A1D61ABD7003D916C /* ViewControllers */,
+				54CEAD401D5F7656003D916C /* Views */,
 				54CEAD241D5F1C85003D916C /* AppDelegate.swift */,
-				54CEAD261D5F1C85003D916C /* ViewController.swift */,
 				54CEAD281D5F1C85003D916C /* Main.storyboard */,
 				54CEAD2B1D5F1C85003D916C /* Assets.xcassets */,
 				54CEAD2D1D5F1C85003D916C /* LaunchScreen.storyboard */,
 				54CEAD301D5F1C85003D916C /* Info.plist */,
 			);
 			path = Audile;
+			sourceTree = "<group>";
+		};
+		54CEAD401D5F7656003D916C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD531D6136FD003D916C /* SongTableViewCells */,
+				54CEAD411D5F7656003D916C /* SongCollectionViewCells */,
+				54CEAD791D61CC09003D916C /* SongProgressBar.swift */,
+				54605AD31D62324900EBE5DD /* SongSearchBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54CEAD411D5F7656003D916C /* SongCollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD421D5F7656003D916C /* SongCollectionViewCell.swift */,
+				54CEAD431D5F7656003D916C /* SongCollectionViewCell.xib */,
+			);
+			path = SongCollectionViewCells;
+			sourceTree = "<group>";
+		};
+		54CEAD461D5F77A8003D916C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD471D5F77A8003D916C /* CellInterface.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		54CEAD491D5F7ADF003D916C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD4D1D5F7B00003D916C /* Song */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54CEAD4D1D5F7B00003D916C /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD4E1D5F7B00003D916C /* Song.swift */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		54CEAD501D5F7C36003D916C /* MusicDataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD511D5F7C36003D916C /* MusicDataProvider.swift */,
+			);
+			name = MusicDataProvider;
+			path = DataProviders/MusicDataProvider;
+			sourceTree = "<group>";
+		};
+		54CEAD531D6136FD003D916C /* SongTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD541D6141A6003D916C /* SongTableViewCell.xib */,
+				54CEAD561D61432F003D916C /* SongTableViewCell.swift */,
+			);
+			name = SongTableViewCells;
+			sourceTree = "<group>";
+		};
+		54CEAD581D617238003D916C /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD6F1D61B946003D916C /* MediaPlayer.framework */,
+				54CEAD711D61B94E003D916C /* AVFoundation.framework */,
+			);
+			name = frameworks;
+			path = Audile/frameworks;
+			sourceTree = "<group>";
+		};
+		54CEAD601D618404003D916C /* DropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD611D618404003D916C /* DropdownItem.swift */,
+				54CEAD621D618404003D916C /* DropdownMenu.h */,
+				54CEAD631D618404003D916C /* DropdownMenu.swift */,
+				54CEAD641D618404003D916C /* DropUpMenu.swift */,
+			);
+			path = DropDownMenu;
+			sourceTree = "<group>";
+		};
+		54CEAD6A1D61ABD7003D916C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD6B1D61ABD7003D916C /* DevicesViewController.swift */,
+				54CEAD6C1D61ABD7003D916C /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		54CEAD731D61C19F003D916C /* LinearProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				54CEAD741D61C19F003D916C /* Info.plist */,
+				54CEAD751D61C19F003D916C /* LinearProgressBar.h */,
+				54CEAD761D61C19F003D916C /* LinearProgressView.swift */,
+			);
+			path = LinearProgressBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +243,7 @@
 				TargetAttributes = {
 					54CEAD201D5F1C85003D916C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QYW2QQM594;
 					};
 				};
 			};
@@ -123,6 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54CEAD2F1D5F1C85003D916C /* LaunchScreen.storyboard in Resources */,
+				54CEAD551D6141A6003D916C /* SongTableViewCell.xib in Resources */,
+				54CEAD771D61C19F003D916C /* Info.plist in Resources */,
+				54CEAD451D5F7656003D916C /* SongCollectionViewCell.xib in Resources */,
 				54CEAD2C1D5F1C85003D916C /* Assets.xcassets in Resources */,
 				54CEAD2A1D5F1C85003D916C /* Main.storyboard in Resources */,
 			);
@@ -135,8 +286,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CEAD271D5F1C85003D916C /* ViewController.swift in Sources */,
+				54CEAD441D5F7656003D916C /* SongCollectionViewCell.swift in Sources */,
+				54CEAD651D618404003D916C /* DropdownItem.swift in Sources */,
+				54CEAD661D618405003D916C /* DropdownMenu.swift in Sources */,
+				54CEAD521D5F7C36003D916C /* MusicDataProvider.swift in Sources */,
+				54CEAD7A1D61CC09003D916C /* SongProgressBar.swift in Sources */,
+				54CEAD6E1D61ABD7003D916C /* ViewController.swift in Sources */,
+				54CEAD571D61432F003D916C /* SongTableViewCell.swift in Sources */,
+				54CEAD781D61C19F003D916C /* LinearProgressView.swift in Sources */,
 				54CEAD251D5F1C85003D916C /* AppDelegate.swift in Sources */,
+				54CEAD6D1D61ABD7003D916C /* DevicesViewController.swift in Sources */,
+				54CEAD4F1D5F7B00003D916C /* Song.swift in Sources */,
+				54CEAD671D618405003D916C /* DropUpMenu.swift in Sources */,
+				54605AD41D62324900EBE5DD /* SongSearchBar.swift in Sources */,
+				54CEAD481D5F77A8003D916C /* CellInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +412,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Audile/frameworks",
+				);
 				INFOPLIST_FILE = Audile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Identifier-LetsNavigate.Audile";
+				PRODUCT_BUNDLE_IDENTIFIER = com.audile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +431,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Audile/frameworks",
+				);
 				INFOPLIST_FILE = Audile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Identifier-LetsNavigate.Audile";
+				PRODUCT_BUNDLE_IDENTIFIER = com.audile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +465,7 @@
 				54CEAD351D5F1C85003D916C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
