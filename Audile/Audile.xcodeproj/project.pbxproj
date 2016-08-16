@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54605AD41D62324900EBE5DD /* SongSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54605AD31D62324900EBE5DD /* SongSearchBar.swift */; };
+		54647EDC1D6317690010F8DE /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54647EDA1D6317690010F8DE /* Pulsator.swift */; };
 		54CEAD251D5F1C85003D916C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD241D5F1C85003D916C /* AppDelegate.swift */; };
 		54CEAD2A1D5F1C85003D916C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD281D5F1C85003D916C /* Main.storyboard */; };
 		54CEAD2C1D5F1C85003D916C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD2B1D5F1C85003D916C /* Assets.xcassets */; };
@@ -29,10 +30,15 @@
 		54CEAD771D61C19F003D916C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54CEAD741D61C19F003D916C /* Info.plist */; };
 		54CEAD781D61C19F003D916C /* LinearProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD761D61C19F003D916C /* LinearProgressView.swift */; };
 		54CEAD7A1D61CC09003D916C /* SongProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CEAD791D61CC09003D916C /* SongProgressBar.swift */; };
+		9FEB418975FDD81D62F20CBE /* Pods_Audile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FB2B6502C37E901A0BFC15 /* Pods_Audile.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19FB2B6502C37E901A0BFC15 /* Pods_Audile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Audile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A29B2B030057DC15A3917E2 /* Pods-Audile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Audile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Audile/Pods-Audile.release.xcconfig"; sourceTree = "<group>"; };
+		2E8BBDA634F6D31BAFBD94BC /* Pods-Audile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Audile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Audile/Pods-Audile.debug.xcconfig"; sourceTree = "<group>"; };
 		54605AD31D62324900EBE5DD /* SongSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongSearchBar.swift; sourceTree = "<group>"; };
+		54647EDA1D6317690010F8DE /* Pulsator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsator.swift; sourceTree = "<group>"; };
 		54CEAD211D5F1C85003D916C /* Audile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CEAD241D5F1C85003D916C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54CEAD291D5F1C85003D916C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,18 +73,29 @@
 			files = (
 				54CEAD721D61B94E003D916C /* AVFoundation.framework in Frameworks */,
 				54CEAD701D61B946003D916C /* MediaPlayer.framework in Frameworks */,
+				9FEB418975FDD81D62F20CBE /* Pods_Audile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54647ED71D6317690010F8DE /* Pulsator */ = {
+			isa = PBXGroup;
+			children = (
+				54647EDA1D6317690010F8DE /* Pulsator.swift */,
+			);
+			path = Pulsator;
+			sourceTree = "<group>";
+		};
 		54CEAD181D5F1C85003D916C = {
 			isa = PBXGroup;
 			children = (
 				54CEAD231D5F1C85003D916C /* Audile */,
 				54CEAD581D617238003D916C /* frameworks */,
 				54CEAD221D5F1C85003D916C /* Products */,
+				8E86237632318CB217044612 /* Pods */,
+				FCA3354AE52CFFF8CA3C795C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +110,7 @@
 		54CEAD231D5F1C85003D916C /* Audile */ = {
 			isa = PBXGroup;
 			children = (
+				54647ED71D6317690010F8DE /* Pulsator */,
 				54CEAD731D61C19F003D916C /* LinearProgressBar */,
 				54CEAD601D618404003D916C /* DropDownMenu */,
 				54CEAD501D5F7C36003D916C /* MusicDataProvider */,
@@ -211,6 +229,23 @@
 			path = LinearProgressBar;
 			sourceTree = "<group>";
 		};
+		8E86237632318CB217044612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BBDA634F6D31BAFBD94BC /* Pods-Audile.debug.xcconfig */,
+				1A29B2B030057DC15A3917E2 /* Pods-Audile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCA3354AE52CFFF8CA3C795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19FB2B6502C37E901A0BFC15 /* Pods_Audile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54CEAD331D5F1C85003D916C /* Build configuration list for PBXNativeTarget "Audile" */;
 			buildPhases = (
+				95DD1D7F752C8846FE333A38 /* Check Pods Manifest.lock */,
 				54CEAD1D1D5F1C85003D916C /* Sources */,
 				54CEAD1E1D5F1C85003D916C /* Frameworks */,
 				54CEAD1F1D5F1C85003D916C /* Resources */,
+				0F70D9EFEEA4325CB4344AAE /* Embed Pods Frameworks */,
+				02A8D9B2317984E0B7CB35C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,6 +319,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02A8D9B2317984E0B7CB35C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Audile/Pods-Audile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F70D9EFEEA4325CB4344AAE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Audile/Pods-Audile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DD1D7F752C8846FE333A38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54CEAD1D1D5F1C85003D916C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -295,6 +381,7 @@
 				54CEAD571D61432F003D916C /* SongTableViewCell.swift in Sources */,
 				54CEAD781D61C19F003D916C /* LinearProgressView.swift in Sources */,
 				54CEAD251D5F1C85003D916C /* AppDelegate.swift in Sources */,
+				54647EDC1D6317690010F8DE /* Pulsator.swift in Sources */,
 				54CEAD6D1D61ABD7003D916C /* DevicesViewController.swift in Sources */,
 				54CEAD4F1D5F7B00003D916C /* Song.swift in Sources */,
 				54CEAD671D618405003D916C /* DropUpMenu.swift in Sources */,
@@ -410,6 +497,7 @@
 		};
 		54CEAD341D5F1C85003D916C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8BBDA634F6D31BAFBD94BC /* Pods-Audile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -429,6 +517,7 @@
 		};
 		54CEAD351D5F1C85003D916C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A29B2B030057DC15A3917E2 /* Pods-Audile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
